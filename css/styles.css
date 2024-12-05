@@ -55,12 +55,12 @@ img {
 }
 
 .nav-menu {
-  padding: 24px 0;
   display: flex;
   align-items: center;
 }
 
 .navbar-menu {
+  padding: 24px 0;
   display: flex;
   gap: 40px;
 }
@@ -127,6 +127,7 @@ img {
 }
 
 button {
+  display: block;
   background-color: #4d5ae5;
   border-radius: 4px;
   padding: 16px 32px;
@@ -139,6 +140,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   min-width: 169px;
+  margin: 0 163px;
 }
 
 button:hover,
